@@ -12,11 +12,13 @@ header > .title {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 220px;
+    width: 280px;
     height: 80px;
 }
 
 header > .title > .logo {
+    font-size: 2em;
+    font-weight: 600;
     color: black;
     display: flex;
     align-items: center;
@@ -46,6 +48,208 @@ header >  nav > ul > li > a {
 /* section GetKit start */
 
 .sectionGetKit {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     width: 80%;
+    margin: 50px auto 0;
+}
+
+.sectionGetKit > .titleSection {
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.sectionGetKit > .titleSection > p {
+    font-size: 24px;
+}
+
+.sectionGetKit .titleSection > .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    background-color: #dc143c;
+    box-shadow: 0 0 20px #dc143c;
+    width: 150px;
+    height: 54px;
+}
+
+.infoCircle {
+    position: relative;
+    height: 570px;
+    width: 40%;
+}
+
+.infoCircle h3 {
+    font-size: 2em;
+}
+
+.infoCircle > .price {
+    z-index: 3;
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 96px;
+    height: 120px;
+    background-color: dodgerblue;
+    border-radius: 20px;
+    color: white;
+}
+
+.infoCircle > .price > p {
+    text-transform: uppercase;
+}
+
+.infoCircle > .server {
+    z-index: 2;
+    position: absolute;
+    left: 35%;
+    top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    box-shadow: 0 0 20px #dc143c;
+    background-color: white;
+    width: 256px;
+    aspect-ratio: 1;
+}
+
+.infoCircle > .server > p {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #dc143c;
+}
+
+.infoCircle > .speed {
+    position: absolute;
+    right: 0;
+    top: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 1px solid #dc143c;
+    width: 256px;
+    aspect-ratio: 1;
+}
+
+.infoCircle > .speed > p:first-child {
+    margin-bottom: 20px;
+    font-size: 1.2em;
+    color: dodgerblue;
+}
+
+.infoCircle > .speed > p:last-child {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: dodgerblue;
+}
+
+.infoCircle > .guarantee {
+    position: absolute;
+    left: 40%;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 1px solid dodgerblue;
+    background-color: white;
+    box-shadow: 0 0 20px dodgerblue;
+    width: 192px;
+    aspect-ratio: 1;
+}
+
+.infoCircle > .guarantee > p {
+    font-weight: 600;
+    text-align: center;
+    color: dodgerblue;
+}
+
+.infoCircle > .country {
+    position: absolute;
+    left: 0;
+    bottom: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: -2px 2px 20px dodgerblue;
+    width: 160px;
+    aspect-ratio: 1;
+}
+
+.infoCircle > .country > p {
+    margin-top: 10px;
+    color: #dc143c;
+}
+
+.switchers {
     margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+}
+
+.switchers > .backBtn, .switchers > .nextBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 1px solid dodgerblue;
+    background-color: white;
+    box-shadow: 0 0 20px dodgerblue;
+    width: 64px;
+    aspect-ratio: 1;
+}
+
+.switchers > .backBtn img, .switchers > .nextBtn img {
+    width: 32px;
+}
+
+/* section GetKit end */
+
+.sectionDevice {
+    border-radius: 30px;
+    height: 20vh;
+    width: 50%;
+    margin: 5vh auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border: 3px solid transparent;
+    -moz-border-image: -moz-linear-gradient(left, #0625F9, white 50%, deeppink , rgba(255,0,0,0.9));
+    -webkit-border-image: -webkit-linear-gradient(left, #0625F9 , white 50%, deeppink , rgba(255,0,0,0.9));
+    border-image-slice: 1;
+}
+
+.sectionDevice > .icons {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sectionDevice > .icons > img {
+    width: 50px;
+    aspect-ratio: 1;
 }
