@@ -45,6 +45,21 @@ header >  nav > ul > li > a {
 
 /* header style end */
 
+.point1 {
+    position: absolute;
+    top: 800px;
+    right: 40px;
+    box-shadow: 0 0 1000px 400px pink;
+}
+
+.point2 {
+    z-index: -999;
+    position: absolute;
+    top: 400px;
+    left: 400px;
+    box-shadow: 0 0 1000px 150px dodgerblue;
+}
+
 /* section GetKit start */
 
 .sectionGetKit {
