@@ -349,7 +349,7 @@ header >  nav > ul > li > a {
 
 .sectionTryIt {
     width: 80%;
-    margin: 0 auto;
+    margin: 0 auto 20vh;
     display: flex;
     justify-content: space-between;
 }
@@ -395,3 +395,56 @@ header >  nav > ul > li > a {
 }
 
 /* section tryIt end */
+
+/* section reviews start */
+
+.sectionReview {
+    display: flex;
+    width: 80%;
+    margin: 0 auto 20vh;
+}
+
+.sectionReview:nth-child(n) {
+    height: 40vh;
+}
+
+.sectionReview:nth-child(n) > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionReview > .firstBlockReview {
+    width: 50%;
+    border-right: 1px solid #A4C2FF;
+}
+
+.sectionReview > .firstBlockReview> .titleSection > .switchers {
+    margin: unset;
+}
+.sectionReview > .secondBlockReview {
+    width: 25%;
+    height: 100%;
+    border-right: 1px solid #A4C2FF;
+}
+
+.sectionReview > .thirdBlockReview {
+    width: 25%;
+}
+
+.sectionReview blockquote p {
+    color: #4A86FF;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.sectionReview > .secondBlockReview > blockquote p:before {
+    content: '\201C';
+}
+
+.sectionReview > .secondBlockReview > blockquote p:after {
+    content: '\201D';
+}
+
+
+/* section reviews end */
