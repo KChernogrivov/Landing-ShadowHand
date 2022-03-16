@@ -83,7 +83,7 @@ header >  nav > ul > li > a {
     font-size: 18px;
 }
 
-.titleSection > .btn {
+.btn {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -281,7 +281,7 @@ header >  nav > ul > li > a {
     align-items: center;
     justify-content: space-between;
     width: 80%;
-    margin: 0 auto;
+    margin: 20vh auto;
 }
 
 .sectionGetItNow > .titleSection {
@@ -344,3 +344,54 @@ header >  nav > ul > li > a {
     bottom: calc(40% - 192px/2);
 }
 /* section privacy end */
+
+/* section tryIt start */
+
+.sectionTryIt {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sectionTryIt > .titleSection {
+    justify-content: unset;
+    width: 544px;
+}
+
+.sectionTryIt > .titleSection > p {
+    margin-top: 60px;
+}
+
+.Submit {
+    margin-right: 20%;
+}
+
+.Submit > h3 {
+    color: #4A86FF;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.Submit > input::placeholder {
+    color: #A4C2FF;
+}
+
+.Submit > input {
+    color: #4A86FF;
+    margin-top: 60px;
+    font-size: 24px;
+    border: none;
+    border-bottom: 1px solid #A4C2FF;
+}
+
+.Submit > input:focus {
+    outline: none;
+    border-bottom: 1px solid dodgerblue;
+}
+
+.Submit > a {
+    margin-top: 60px;
+}
+
+/* section tryIt end */
