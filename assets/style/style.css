@@ -46,6 +46,7 @@ header >  nav > ul > li > a {
 /* header style end */
 
 .point1 {
+    z-index: -999;
     position: absolute;
     top: 800px;
     right: 40px;
@@ -70,7 +71,7 @@ header >  nav > ul > li > a {
     margin: 50px auto 0;
 }
 
-.sectionGetKit > .titleSection {
+.titleSection {
     height: 40vh;
     display: flex;
     flex-direction: column;
@@ -78,11 +79,11 @@ header >  nav > ul > li > a {
 
 }
 
-.sectionGetKit > .titleSection > p {
-    font-size: 24px;
+.titleSection > p {
+    font-size: 18px;
 }
 
-.sectionGetKit .titleSection > .btn {
+.titleSection > .btn {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -241,6 +242,8 @@ header >  nav > ul > li > a {
 
 /* section GetKit end */
 
+/* section Device start */
+
 .sectionDevice {
     border-radius: 30px;
     height: 20vh;
@@ -268,3 +271,76 @@ header >  nav > ul > li > a {
     width: 50px;
     aspect-ratio: 1;
 }
+
+/* section Device end */
+
+/* section privacy start */
+
+.sectionGetItNow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.sectionGetItNow > .titleSection {
+    width: 544px;
+}
+
+.sectionGetItNow > .infoCircle h3 {
+    font-size: 18px;
+}
+
+.sectionGetItNow > .infoCircle > div:nth-child(n){
+    border: 1px solid black;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+}
+
+.sectionGetItNow > .infoCircle > .holdLocation {
+    width: 192px;
+    aspect-ratio: 1;
+    background-color: #A4C2FF;
+    box-shadow: 10px 10px 20px rgba(74, 134, 255, 0.3);
+    backdrop-filter: blur(15px);
+    color: #FFFFFF;
+    left: calc(30% - 192px/2);
+    top: 0;
+}
+
+.sectionGetItNow > .infoCircle > .withoutTracking {
+    z-index: 3;
+    width: 192px;
+    aspect-ratio: 1;
+    background-color: rgba(255, 255, 255, 0.4);
+    box-shadow: 10px 10px 20px rgba(74, 134, 255, 0.3);
+    backdrop-filter: blur(15px);
+    color: #4A86FF;
+    left: 0;
+    top: calc(40% - 192px/2);
+}
+.sectionGetItNow > .infoCircle > .stopAds {
+    width: 160px;
+    aspect-ratio: 1;
+    background: rgba(255, 255, 255, 0.4);
+    box-shadow: 10px 10px 20px rgba(74, 134, 255, 0.3);
+    backdrop-filter: blur(15px);
+    color: #4A86FF;
+    right: 20%;
+    top: calc(50% - 192px/2);
+}
+.sectionGetItNow > .infoCircle > .privately {
+    width: 160px;
+    aspect-ratio: 1;
+    background: #4A86FF;
+    box-shadow: 10px 10px 20px rgba(74, 134, 255, 0.3);
+    color: #FFFFFF;
+    left: calc(30% - 192px/2);
+    bottom: calc(40% - 192px/2);
+}
+/* section privacy end */
