@@ -45,21 +45,38 @@ header >  nav > ul > li > a {
 
 /* header style end */
 
-.point1 {
+/* paint points start */
+
+.points {
     z-index: -999;
     position: absolute;
+}
+
+.point1 {
     top: 800px;
     right: 40px;
     box-shadow: 0 0 1000px 400px pink;
 }
 
 .point2 {
-    z-index: -999;
-    position: absolute;
     top: 400px;
     left: 400px;
-    box-shadow: 0 0 1000px 150px dodgerblue;
+    box-shadow: 0 0 1000px 150px rgba(0,0,255, 0.2);
 }
+
+.point3 {
+    top: 2500px;
+    right: 40px;
+    box-shadow: 0 0 1000px 300px rgba(0,0,255, 0.2);
+}
+
+.point4 {
+    top: 2700px;
+    left: 40px;
+    box-shadow: 0 0 1000px 200px pink;
+}
+
+/* paint points end */
 
 /* section GetKit start */
 
@@ -452,3 +469,15 @@ header >  nav > ul > li > a {
 
 
 /* section reviews end */
+
+/* section marquee start */
+
+.marqueeFirst {
+    color: #0D224E;
+}
+
+.marqueeSecond {
+    color: #EF3959;
+}
+
+/* section marquee end */
