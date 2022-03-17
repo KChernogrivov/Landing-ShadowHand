@@ -89,6 +89,7 @@ header >  nav > ul > li > a {
 }
 
 .titleSection {
+    color: rgba(13, 34, 78, 1);
     height: 40vh;
     display: flex;
     flex-direction: column;
@@ -555,3 +556,89 @@ header >  nav > ul > li > a {
 }
 
 /* section plan end */
+
+.sectionFAQ {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    height: 50vh;
+    margin: 0 auto 10vh;
+}
+
+.sectionFAQ > .titleSection {
+    width: 50%;
+    height: 50vh;
+    justify-content: space-between;
+}
+
+.FAQInfo {
+    color: rgba(13, 34, 78, 1);
+    font-size: 35px;
+    border-bottom: 1px solid rgba(164, 194, 255, 1);
+}
+
+.FAQInfo ul {
+}
+
+.FAQInfo li {
+    color: rgba(13, 34, 78, 1);
+    list-style: none;
+    display: none;
+    font-size: 25px;
+}
+
+
+
+
+
+
+
+.infoCircle > .videoCicle {
+    top: 0;
+    right: 0;
+    text-align: center;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+}
+
+.infoCircle > .videoCicle > .triangle {
+    border: 20px solid transparent;
+    border-left: 20px solid green;
+}
+
+.infoCircle > .ChoosePlan {
+    top: 0;
+    left: 0;
+    text-align: center;
+    background-color: rgba(239, 57, 89, 1);
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 192px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+}
+
+.infoCircle > .askQuetion {
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(15px);
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 192px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+}
+
