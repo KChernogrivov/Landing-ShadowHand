@@ -481,3 +481,77 @@ header >  nav > ul > li > a {
 }
 
 /* section marquee end */
+
+/* section plan start */
+
+.sectionPlan {
+    width: 80%;
+    margin: 20vh auto;
+}
+
+.sectionPlan > .titleSection {
+    height: 20vh;
+}
+
+.plans {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.plans > .plan {
+    font-size: 20px;
+    font-weight: 600;
+    width: 350px;
+    height: 350px;
+    border-radius: 30px;
+    border: 1px solid rgb(255, 255, 255);
+    color: white;
+    background-color: rgba(255,255,255, 0.4);
+    backdrop-filter: blur(20px);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    text-align: center;
+}
+
+.plans > .plan > .btn {
+    background-color: transparent;
+    border: 1px solid rgba(239, 57, 89, 1);
+    color: rgba(239, 57, 89, 1);
+    box-shadow: none;
+}
+
+.plans > .plan > p:last-child {
+    font-weight: 400;
+}
+
+.plans > .plan > .wrap__planPrice > .planPrice {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.plans > .plan > .wrap__planPrice > .planPrice > span:first-child {
+    margin-right: 5px;
+}
+
+.plans > .plan > .wrap__planPrice > .planPrice > span:last-child {
+    margin-left: 5px;
+}
+
+.plans > .plan > .wrap__planPrice .deletedText {
+    text-decoration: line-through;
+}
+
+.plans > .plan > .wrap__planPrice > .planPrice > .currentPricePlan {
+    font-size: 50px;
+}
+
+/* section plan end */
