@@ -8,7 +8,7 @@ header {
     align-items: center;
 }
 
-header > .title {
+.title {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -16,7 +16,7 @@ header > .title {
     height: 80px;
 }
 
-header > .title > .logo {
+.logo {
     font-size: 2em;
     font-weight: 600;
     color: black;
@@ -31,14 +31,14 @@ header > .title > .logo {
     box-shadow: 0 0 20px #dc143c;
 }
 
-header >  nav > ul {
+nav > ul {
     display: flex;
     justify-content: space-between;
     width: 400px;
     list-style: none;
 }
 
-header >  nav > ul > li > a {
+nav > ul > li > a {
     color: black;
     text-decoration: none;
 }
@@ -646,7 +646,22 @@ header >  nav > ul > li > a {
 
 /* section footer start */
 
+.wrap__footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+    margin: 30vh auto 2vh;
+}
 
+.wrap__footer > *:nth-child(n + 1) {
+    margin-top: 20px;
+}
+
+.wrap__footer > p {
+    color: rgba(0,0,0, 0.4);
+}
 
 /* section footer end */
 
