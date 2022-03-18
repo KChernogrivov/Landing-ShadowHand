@@ -557,6 +557,8 @@ header >  nav > ul > li > a {
 
 /* section plan end */
 
+/* section FAQ start */
+
 .sectionFAQ {
     position: relative;
     display: flex;
@@ -639,4 +641,12 @@ header >  nav > ul > li > a {
     aspect-ratio: 1;
     border-radius: 50%;
 }
+
+/* section FAQ end */
+
+/* section footer start */
+
+
+
+/* section footer end */
 

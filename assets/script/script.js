@@ -1,14 +1,15 @@
+let ClickToInfo = $(".FAQInfo");
 let opened;
 
 new CircleType(document.getElementById('cycleText'));
 
-$(".FAQInfo").click(function() {
-        $(".FAQInfo").find('li').slideUp();
+ClickToInfo.click(function() {
+    ClickToInfo.find('li').slideUp();
         if(opened !== this) {
             $(this).find('li').slideDown()
             opened = this;
         } else {
-            $("ul").find('li').slideUp();
+            ClickToInfo.find('li').slideUp();
             opened = 0;
         }
 });
