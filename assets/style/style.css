@@ -695,3 +695,15 @@ nav > ul > li > a {
 
 /* section footer end */
 
+#cycleText > div:first-child {
+    animation: 8s rolling linear infinite;
+}
+
+@keyframes rolling {
+    from {
+        transform: rotate(0);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
