@@ -76,6 +76,36 @@ nav > ul > li > a {
     box-shadow: 0 0 1000px 200px pink;
 }
 
+.point5 {
+    top: 3800px;
+    left: 500px;
+    box-shadow: 0 0 1000px 400px rgba(0,0,255, 0.4);
+}
+
+.point6 {
+    top: 3800px;
+    right: 600px;
+    box-shadow: 0 0 1000px 400px rgba(239, 57, 89, 0.4);
+}
+
+.point7 {
+    top: 4300px;
+    right: 100px;
+    box-shadow: 0 0 1000px 200px rgba(239, 57, 89, 0.4);
+}
+
+.point8 {
+    top: 4500px;
+    right: 500px;
+    box-shadow: 0 0 1000px 200px rgba(0,0,255, 0.4);
+}
+
+.point9 {
+    top: 5000px;
+    left: 0;
+    box-shadow: 0 0 1000px 200px rgba(0,0,255, 0.4);
+}
+
 /* paint points end */
 
 /* section GetKit start */
