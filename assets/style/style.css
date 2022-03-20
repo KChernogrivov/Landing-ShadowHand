@@ -524,6 +524,7 @@ nav > ul > li > a {
     height: 20vh;
 }
 
+
 .plans {
     display: flex;
     flex-direction: row;
@@ -567,6 +568,31 @@ nav > ul > li > a {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.plan2 {
+    position: relative;
+}
+
+.profit {
+    right: 50px;
+    top: -40px;
+    position: absolute;
+    height: 33px;
+    width: 120px;
+    background-color: rgba(239, 57, 89, 1);
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profit > .triangle {
+    left: 20px;
+    bottom: -40px;
+    position: absolute;
+    border: 20px solid transparent;
+    border-top: 20px solid  rgba(239, 57, 89, 1);
 }
 
 .plans > .plan > .wrap__planPrice > .planPrice > span:first-child {
